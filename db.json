@@ -1,0 +1,77 @@
+{
+    "product" : [
+        {
+            "id": "Caneca de cerâmica rústica",
+            "price": 40,
+            "image": "",
+            "type": "mug"
+        },
+        {
+            "id": "Caneca Black Ring",
+            "price": 32,
+            "image": "",
+            "type": "mug"
+        },
+        {
+            "id": "Caneca The Grounds",
+            "price": 85,
+            "image": "",
+            "type": "mug"
+        },
+        {
+            "id": "Caneca preto fosco",
+            "price": 43,
+            "image": "",
+            "type": "mug"
+        },
+        {
+            "id": "Caneca Never settle",
+            "price": 40,
+            "image": "",
+            "type": "mug"
+        },
+        {
+            "id": "Caneca Decaf! P&Co",
+            "price": 32,
+            "image": "",
+            "type": "mug"
+        },
+
+        {
+            "id": "Camiseta not today.",
+            "price": 78,
+            "image": "C:\\Users\\duduf\\IT projects\\React\\capputeeno-challenge\\assets\\Camiseta 01.jpg",
+            "type": "shirt"
+        },
+        {
+            "id": "Camiseta Broken Saints",
+            "price": 58,
+            "image": "C:\\Users\\duduf\\IT projects\\React\\capputeeno-challenge\\assets\\Camiseta 02.jpg",
+            "type": "shirt"
+        },
+        {
+            "id": "Camiseta Outcast",
+            "price": 89,
+            "image": "C:\\Users\\duduf\\IT projects\\React\\capputeeno-challenge\\assets\\Camiseta 03.jpg",
+            "type": "shirt"
+        },
+        {
+            "id": "Camiseta evening",
+            "price": 69,
+            "image": "C:\\Users\\duduf\\IT projects\\React\\capputeeno-challenge\\assets\\Camiseta 04.jpg",
+            "type": "shirt"
+        },
+        {
+            "id": "Camiseta DREAMER",
+            "price": 55,
+            "image": "C:\\Users\\duduf\\IT projects\\React\\capputeeno-challenge\\assets\\Camiseta 05.jpg",
+            "type": "shirt"
+        },
+        {
+            "id": "Caneca Decaf! P&Co",
+            "price": 92,
+            "image": "C:\\Users\\duduf\\IT projects\\React\\capputeeno-challenge\\assets\\Camiseta 06.jpg",
+            "type": "shirt"
+        }
+    ] 
+}
