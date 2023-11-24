@@ -1,8 +1,13 @@
+import { OrderContext } from "@/contexts/OrderContext";
 import { ButtonBadge, CardButton, Header, HeaderActionContainer, HeaderInput, Logo } from "@/styles/layout";
 import { ShoppingCart } from "phosphor-react";
+import { useContext } from "react";
 
 
 export default function Layout({ children }: any) {
+
+    const {cart} = useContext(OrderContext);
+
     return (
         <>
             <Header>
@@ -11,7 +16,7 @@ export default function Layout({ children }: any) {
                     <HeaderInput placeholder="Procurando algo específco? " />
                     <CardButton>
                         <ShoppingCart size={24} />
-                        <ButtonBadge><span>2</span></ButtonBadge>
+                        <ButtonBadge><span>{cart.items.length}</span></ButtonBadge>
                     </CardButton>
                 </HeaderActionContainer>
             </Header>

@@ -1,76 +1,88 @@
 {
     "product" : [
         {
-            "id": "Caneca de cerâmica rústica",
+            "id": 1,
+            "name": "Caneca de cerâmica rústica",
             "price": 40,
-            "image": "",
+            "image": "https://github.com/EduardoLeoDaSilva/capputeeno-challenge/blob/master/assets/Caneca 01.jpg?raw=true",
             "type": "mug"
         },
         {
-            "id": "Caneca Black Ring",
+            "id": 2,
+            "name": "Caneca Black Ring",
             "price": 32,
-            "image": "",
+            "image": "https://github.com/EduardoLeoDaSilva/capputeeno-challenge/blob/master/assets/Caneca 02.jpg?raw=true",
             "type": "mug"
         },
         {
-            "id": "Caneca The Grounds",
+            "id": 3,
+            "name": "Caneca The Grounds",
             "price": 85,
-            "image": "",
+            "image": "https://github.com/EduardoLeoDaSilva/capputeeno-challenge/blob/master/assets/Caneca 03.jpg?raw=true",
             "type": "mug"
         },
         {
-            "id": "Caneca preto fosco",
+            "id": 4,
+            "name": "Caneca preto fosco",
             "price": 43,
-            "image": "",
+            "image": "https://github.com/EduardoLeoDaSilva/capputeeno-challenge/blob/master/assets/Caneca 04.jpg?raw=true",
             "type": "mug"
         },
         {
-            "id": "Caneca Never settle",
+            "id": 5,
+            "name": "Caneca Never settle",
             "price": 40,
-            "image": "",
+            "image": "https://github.com/EduardoLeoDaSilva/capputeeno-challenge/blob/master/assets/Caneca 05.jpg?raw=true",
             "type": "mug"
         },
         {
-            "id": "Caneca Decaf! P&Co",
+            "id": 6,
+            "name": "Caneca Decaf! P&Co",
             "price": 32,
-            "image": "",
+            "image": "https://github.com/EduardoLeoDaSilva/capputeeno-challenge/blob/master/assets/Caneca 06.jpg?raw=true",
             "type": "mug"
         },
 
         {
-            "id": "Camiseta not today.",
+            "id": 7,
+            "name": "Camiseta not today.",
             "price": 78,
-            "image": "C:\\Users\\duduf\\IT projects\\React\\capputeeno-challenge\\assets\\Camiseta 01.jpg",
+            "image": "https://github.com/EduardoLeoDaSilva/capputeeno-challenge/blob/master/assets/Camiseta 01.jpg?raw=true",
             "type": "shirt"
         },
         {
-            "id": "Camiseta Broken Saints",
+            "id": 8,
+            "name": "Camiseta Broken Saints",
             "price": 58,
-            "image": "C:\\Users\\duduf\\IT projects\\React\\capputeeno-challenge\\assets\\Camiseta 02.jpg",
+            "image": "https://github.com/EduardoLeoDaSilva/capputeeno-challenge/blob/master/assets/Camiseta 02.jpg?raw=true",
             "type": "shirt"
         },
         {
-            "id": "Camiseta Outcast",
+            "id": 9,
+            "name": "Camiseta Outcast",
             "price": 89,
-            "image": "C:\\Users\\duduf\\IT projects\\React\\capputeeno-challenge\\assets\\Camiseta 03.jpg",
+            "image": "https://github.com/EduardoLeoDaSilva/capputeeno-challenge/blob/master/assets/Camiseta 03.jpg?raw=true",
             "type": "shirt"
         },
         {
-            "id": "Camiseta evening",
+            "id": 10,
+            "name": "Camiseta evening",
             "price": 69,
-            "image": "C:\\Users\\duduf\\IT projects\\React\\capputeeno-challenge\\assets\\Camiseta 04.jpg",
+            "image": "https://github.com/EduardoLeoDaSilva/capputeeno-challenge/blob/master/assets/Camiseta 04.jpg?raw=true",
             "type": "shirt"
         },
         {
-            "id": "Camiseta DREAMER",
+            "id": 11,
+            "name": "Camiseta DREAMER",
             "price": 55,
-            "image": "C:\\Users\\duduf\\IT projects\\React\\capputeeno-challenge\\assets\\Camiseta 05.jpg",
+            "image": "https://github.com/EduardoLeoDaSilva/capputeeno-challenge/blob/master/assets/Camiseta 05.jpg?raw=true",
             "type": "shirt"
         },
         {
-            "id": "Caneca Decaf! P&Co",
+            "id": 12,
+            "name": "Caneca Decaf! P&Co",
             "price": 92,
-            "image": "C:\\Users\\duduf\\IT projects\\React\\capputeeno-challenge\\assets\\Camiseta 06.jpg",
+            "image": "https://github.com/EduardoLeoDaSilva/capputeeno-challenge/blob/master/assets/Camiseta 06.jpg?raw=true",
             "type": "shirt"
         }
     ] 

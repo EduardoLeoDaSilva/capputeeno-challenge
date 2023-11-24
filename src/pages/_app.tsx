@@ -4,14 +4,17 @@ import { defaultTheme } from '../styles/themes/defaultTheme'
 import type { AppProps } from 'next/app'
 import { ThemeProvider } from 'styled-components'
 import Layout from '@/components/layout'
+import { OrderContextProvider } from '@/contexts/OrderContext'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (<>
 
     <ThemeProvider theme={defaultTheme}>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <OrderContextProvider>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </OrderContextProvider>
       <GlobalStyle />
     </ThemeProvider>
   </>

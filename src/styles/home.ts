@@ -11,7 +11,7 @@ export const HomeContainer = styled.div`
 `
 
 interface CategoriesProp {
-    isActive?: boolean
+    isactive?: boolean
 }
 
 export const HomeContainerHeader = styled.div`
@@ -24,8 +24,9 @@ width: 100%;
 export const CategoryItem = styled.li<CategoriesProp>`
     list-style-type: none;
     font-family: 'Saira', sans-serif;
+    cursor: pointer;
     font-size: 1rem;
-    border-bottom: ${props => props.isActive ? `solid ${props.theme["orange-low"]}` : `none`};
+    border-bottom: ${props => props.isactive ? `solid ${props.theme["orange-low"]}` : `none`};
 `
 
 export const Categories = styled.ul`
@@ -42,13 +43,61 @@ gap: 1.25rem;
 align-items: end;
 justify-content: center;
 
-button{
+label{
     background-color: transparent;
     border: none;
     font-family: 'Saira', sans-serif;
     display: flex;
     align-items: center;
     font-size: 0.875rem;
+    cursor: pointer;
+}
+
+div{
+    position: relative;
+}
+
+input {
+    display: none;
+}
+
+div[id='sortMenu']{
+    opacity: 0;
+    background-color: transparent;
+    position: absolute;
+    z-index: 300;
+    width: 100%;
+    background-color: ${props => props.theme["background"]};
+
+}
+
+input:checked+div[id='sortMenu']{
+    opacity: 1;
+    transition: opacity 500ms;
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-family: 'Saira', sans-serif;
+        font-size: 0.85rem;
+        background-color: transparent;
+        list-style-type: none;
+        gap: 0.5rem;
+        border-radius: 8px;
+        padding: 1rem;
+        li{
+            cursor: pointer;
+            width: 100%;
+            text-transform: none;
+            background-color: transparent;
+            &:hover{
+                background-color: ${props => props.theme["gray-150"]};
+
+            }
+            border-bottom: ${props => true ? `solid ${props.theme["orange-low"]}` : `none`};
+        }
+    }
 }
 
 ul{
@@ -60,7 +109,7 @@ ul{
    }
 }
 
-li{
+ & >ul li{
     list-style-type: none;
     font-family: 'Saira', sans-serif;
     font-size: 1rem;
@@ -107,6 +156,7 @@ export const Productcard = styled.div`
     width: 256px;
     background-color: ${props => props.theme.white};
     border-radius: 4px;
+    cursor: pointer;
     &>div{
         padding: 0.5rem 0.75rem;
         h3{
